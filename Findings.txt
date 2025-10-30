@@ -1,0 +1,69 @@
+Findings 
+====================================================
+
+All installed browser extensions were reviewed for potential security and privacy risks, excessive permissions, or suspicious publisher/review history. Actions and recommendations are documented for each.
+
+Reviewed Extensions:
+---------------------
+
+1. Enable right click - allow copy & select
+   - Publisher: Unknown/Third-party
+   - Permissions: Read/change data on all sites
+   - Finding: Useful, but broad access. No obvious malicious reports but should monitor/limit use to trusted sites.
+   - Recommendation: Moderate risk; keep if genuinely necessary and from official store. Periodically re-audit.
+
+2. Google Docs Offline
+   - Publisher: Google
+   - Permissions: Access offline Docs, Sheets, Slides
+   - Finding: Official extension—safe and required for offline productivity.
+   - Recommendation: Low risk; safe to keep.
+
+3. Shimeji Browser Extension
+   - Publisher: Third-party
+   - Permissions: Overlay web content, basic tabs
+   - Finding: Low/medium risk. Popular for entertainment, but always verify permissions and ensure no adware.
+   - Recommendation: Keep if usage is frequent; periodically check for bad updates.
+
+4. HTTPS Everywhere
+   - Publisher: Electronic Frontier Foundation (EFF)
+   - Permissions: Modify web requests to enforce HTTPS
+   - Finding: Open-source and well-known; big privacy and security win.
+   - Recommendation: Low risk; safe to keep.
+
+5. PayPal Honey: Automatic Coupons & Cash Back
+   - Publisher: PayPal
+   - Permissions: Read browsing and shopping data
+   - Finding: Useful and reputable, but collects lots of shopping/browsing activity.
+   - Recommendation: Moderate risk; keep if you accept its privacy policy.
+
+6. Amazon Image Download - Include Photo & Video
+   - Publisher: Unknown/Third-party
+   - Permissions: Read data from amazon.com, download media
+   - Finding: Download extensions are frequently flagged for privacy and adware risks.
+   - Recommendation: Moderate-high risk. Remove after testing unless vital and well-reviewed.
+
+7. Flash Video Downloader
+   - Publisher: *Varies, many third-party*
+   - Permissions: Read/change all data on all websites, download accessed content
+   - Finding: Known for privacy concerns and malware/adware history in some versions.
+   - Recommendation: HIGH RISK. Remove after audit.
+
+8. ColorZilla
+   - Publisher: Trusted/WebDev
+   - Permissions: Access page data for color picking
+   - Finding: Web developer tool; safe from reputable publisher.
+   - Recommendation: Low risk; safe to keep.
+
+Actions Taken:
+---------------
+- Removed Flash Video Downloader following risk flags.
+- Audited permissions and reviews for each extension.
+- Kept only trusted/essential extensions.
+- Researched any privacy or malware headlines for installed extensions.
+
+Key Learnings:
+--------------
+- Extensions with high-requested permissions or poor reputations are a major privacy risk.
+- Even benign extensions can become risky after ownership changes or updates.
+- Regular review/audit improves browser security hygiene.
+
