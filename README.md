@@ -92,18 +92,42 @@ Reviewed all installed browser extensions in Chrome for potential risks, privacy
 
 ## 📝 Interview Questions & Answers
 
-**1. How can browser extensions pose security risks?**  
-Some extensions can read/modify all webpage content, potentially stealing sensitive info, tracking users, inserting ads, or executing malware if compromised or maliciously designed.
+**1. How can browser extensions pose security risks?**
 
-**2. What permissions should raise suspicion?**  
-- “Read and change all your data on all websites”
-- Access to clipboard, download management, browsing history, keystroke or credential capture, tab management (especially for non-productivity tools).
+   Browser extensions can read, modify, and collect information from every website you visit. A malicious or compromised extension could steal passwords, spy on your browsing, inject ads or malware, and even take over your accounts—especially if it has “read and change all data” permissions.
 
-**3. How to safely install browser extensions?**  
-Only install from official stores, check reviews/user count, verify the publisher, check update history, and review permissions before enabling.
+**2. What permissions should raise suspicion?**
 
-**4. What is extension supply-chain attack?**  
-When a legitimate extension is sold or updated to include harmful code, affecting all users in the supply chain.
+   Be wary of extensions that request “read and change all your data on the websites you visit,” manage downloads, access your clipboard or passwords, or control your browser tabs/windows for no valid reason. Broad permissions mean more risk if the extension is compromised.
+
+**3. How do you safely install browser extensions?**
+
+   Only use reputable extensions from official stores. Always check the developer’s identity, reviews, update frequency, and permissions before installing. Avoid extensions that are unfamiliar, poorly rated, or ask for more access than needed.
+
+**4. What is extension supply-chain attack?**
+
+   This attack occurs when a legitimate extension is bought or controlled by bad actors, and then updated with malicious code. Every user gets the malicious version automatically due to the trust in the original extension.
+
+**5. Why is regular extension review important?**
+
+   Even safe extensions can turn malicious after updates or changes in ownership. Regular reviews let you uninstall risky add-ons, spot suspicious behavior, and keep your browser secure.
+
+**6. What should you do if you suspect an extension is malicious?**
+
+   Immediately disable or remove it, scan your computer for malware, change sensitive passwords, and check for any account breaches. Look up info about the extension online and monitor for related security news.
+
+**7. What are best practices for browser extension security?**
+
+   -Limit installed extensions to only what you need.
+
+   -Prefer trusted, well-reviewed, and frequently updated extensions.
+
+   -Regularly audit and remove unused add-ons.
+
+   -Closely review permissions after updates.
+
+   -Stay alert for official warnings or negative user reviews.tory, and review permissions before enabling.
+
 
 ---
 
